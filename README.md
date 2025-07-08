@@ -2,7 +2,8 @@
 This repository contains csv summary files and code used for data extraction in the first preprint version of Spratt M., Lane K. (2025) (https://doi.org/10.1101/2025.07.01.662634)
 
 
-# Flow Cytometry Data - found in FlowSummaryStats
+# Flow Cytometry Data 
+## Summary Data frames - found in FlowSummaryStats
 Stored as CSV files. FlowJo was used to analyze FCS files. CSVs contain summary statistics as exported by FlowJo. 
 
 # DIMM Data: 
