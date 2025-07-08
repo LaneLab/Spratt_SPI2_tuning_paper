@@ -3,7 +3,9 @@ This repository contains csv summary files and code used for data extraction in 
 
 
 # Flow Cytometry Data 
-## Summary Data frames - found in FlowSummaryStats
+
+## Summary Dataframes 
+6 .xlsx files are included - found in FlowSummaryStats
 Stored as CSV files. FlowJo was used to analyze FCS files. CSVs contain summary statistics as exported by FlowJo and are organized by figure. 
 
 # DIMM Data: 
@@ -20,9 +22,11 @@ Stored as CSV files. FlowJo was used to analyze FCS files. CSVs contain summary 
 - **mRuby_Stats.csv** - contains information about Ruby features for each cell_id. 
 
 ## Analysis
-1 python script and 5 jupyter notebooks for downstream analysis and plotting are included - found in DIMM_code 
+1 python script and 6 jupyter notebooks for downstream analysis and plotting are included - found in DIMM_code 
 
-- **pyTrackmate.py** - contains script used to create ds_all - a dictionary of xarray files for each tracked channel of cells. 
+- **TrackmateXML.py** - contains base pyTrackmate script with modifications to sort cell_ID assignment by Y position in the channel.
+
+- **Lineage_Extraction.ipynb** - notebook used to apply pyTrackmate, extract cell information from XML files, and store lineages in a dictionary of xarray datasets called ds_all. 
 
 - **Processing.ipynb** - working from ds_all to generate summary dataframes used in downstream analysis and plotting, includes code used to produce all summary dataframes in this repository.  
 
