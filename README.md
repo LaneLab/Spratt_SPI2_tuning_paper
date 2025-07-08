@@ -1,17 +1,20 @@
 # Spratt_SPI2_tuning_paper
-This repository contains csv summary files and code used for data extraction in the first preprint version of Spratt M., Lane K. (2025) (https://doi.org/10.1101/2025.07.01.662634)
+This repository contains summary data and code used in Spratt M. & Lane K. (2025) (https://doi.org/10.1101/2025.07.01.662634)
 
 
 # Flow Cytometry Data 
 
 ## Summary Dataframes 
 6 .xlsx files are included - found in FlowSummaryStats
+
 Stored as CSV files. FlowJo was used to analyze FCS files. CSVs contain summary statistics as exported by FlowJo and are organized by figure. 
 
 # DIMM Data: 
 
 ## Summary Dataframes 
-4 data files are included - found in DIMM_summaries
+Summary datafiles for untracked data are located in DIMM_untracked and contain a csv file for each experiment with regionprops data for all cell labels before and after media transition.
+
+4 data files are included from the tracked data set - found in DIMM_summaries
 
 - **Full_MotherCell_Data.csv** - contains all processed median sfGFP and mRuby2 intensity values and cell length (feret_diameter_um) for 3 separate experiments - 258 total mother cells. 
 
@@ -19,7 +22,7 @@ Stored as CSV files. FlowJo was used to analyze FCS files. CSVs contain summary 
 
 - **Switch_Stats.csv** - contains information pertaining to detected GFP reporter switches of each cell. Cells that were born above the GFP(+) threshold or do not have a detected start increase time have NaNs in these columns. Also contains boolean classifiers that are used for filtering in notebooks. See companion text file for details on what each column header refers to. 
 
-- **mRuby_Stats.csv** - contains information about Ruby features for each cell_id. 
+- **mRuby_Stats.csv** - contains information about Ruby features for each cell_id.
 
 ## Analysis
 1 python script and 6 jupyter notebooks for downstream analysis and plotting are included - found in DIMM_code 
