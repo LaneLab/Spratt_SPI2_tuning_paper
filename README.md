@@ -7,7 +7,7 @@ This repository contains summary data and code used in Spratt M. & Lane K. (2025
 ## Summary Dataframes 
 6 .xlsx files are included - found in FlowSummaryStats
 
-Stored as CSV files. FlowJo was used to analyze FCS files. CSVs contain summary statistics as exported by FlowJo and are organized by figure. 
+FlowJo was used to analyze FCS files. The .xlsx files contain summary statistics as exported by FlowJo and are organized by figure. 
 
 # DIMM Data: 
 
