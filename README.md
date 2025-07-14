@@ -20,7 +20,7 @@ Summary datafiles for untracked data are located in DIMM_untracked and contain a
 
 - **CellCycle_Stats.csv** - contains information about all cycles of all tracked cells. Every combination of unique_ID and cell_ID will have multiple rows pertaining to what cycle the data is on. Cycle numbers start at 0 for each cell that emerges. Note that this contains 'incomplete' cycles that were not fully captured by the imaging - these are filtered in the analysis notebooks. 
 
-- **Switch_Stats.csv** - contains information pertaining to detected GFP reporter switches of each cell. Cells that were born above the GFP(+) threshold or do not have a detected start increase time have NaNs in these columns. Also contains boolean classifiers that are used for filtering in notebooks. See companion text file for details on what each column header refers to. 
+- **Switch_Stats.csv** - contains information pertaining to detected GFP reporter switches of each cell. This includes all mother cells and progeny cells. Cells that were born above the GFP(+) threshold or do not have a detected start increase time have NaNs in these columns. Also contains boolean classifiers that are used for filtering in notebooks. See companion text file for details on what each column header refers to. 
 
 - **mRuby_Stats.csv** - contains information about Ruby features for each cell_id.
 
