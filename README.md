@@ -27,11 +27,6 @@ Summary datafiles for untracked data are located in DIMM_untracked and contain a
 ## Analysis
 1 python script and 6 jupyter notebooks for downstream analysis and plotting are included - found in DIMM_code 
 
-- **TrackmateXML.py** - contains base pyTrackmate script with modifications to sort cell_ID assignment by Y position in the channel.
-
-- **Lineage_Extraction.ipynb** - notebook used to apply pyTrackmate, extract cell information from XML files, and store lineages in a dictionary of xarray datasets called ds_all. 
-
-- **Processing.ipynb** - working from ds_all to generate summary dataframes used in downstream analysis and plotting, includes code used to produce all summary dataframes in this repository.  
 
 - **Mother_Plotting.ipynb** - plotting and analysis from Full_MotherCell_Data.csv used to generate figures. 
 
