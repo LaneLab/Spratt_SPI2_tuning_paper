@@ -25,7 +25,7 @@ Summary datafiles for untracked data are located in DIMM_untracked and contain a
 - **mRuby_Stats.csv** - contains information about Ruby features for each cell_id.
 
 ## Analysis
-1 python script and 6 jupyter notebooks for downstream analysis and plotting are included - found in DIMM_code 
+4 jupyter notebooks for downstream analysis and plotting are included - found in DIMM_code 
 
 
 - **Mother_Plotting.ipynb** - plotting and analysis from Full_MotherCell_Data.csv used to generate figures. 
